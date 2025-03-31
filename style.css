@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --font-family: "Roboto";
+  --grey: #f0f0f0;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  /* padding: 0 15px; */
+  margin: 0 auto;
+}
+/* .nav {
+  background: #000;
+  max-width: 1110px;
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  text-align: center;
+} */
+.nav__inner {
+  width: 811px;
+  height: 29px;
+}
+
+.header__logo_image {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 79px;
+}
+.logo {
+  width: 120px;
+  height: 151px;
+}
+.block__photo {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1110px;
+  width: 100%;
+}
+.whyToBuy {
+  width: 730px;
+  height: 500px;
+  background: var(--grey);
+}
+
+.nav__list_link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #8c8a8a;
+}
+.why__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #4581b7;
+}
+
+.why_contact_content_desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  margin: 25px 95px 51px 40px;
+}
+
+.why_contact_content_desc2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  margin: 25px 24px 159px 40px;
+}
+.contacts {
+  width: 350px;
+  height: 500px;
+  background: var(--grey);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.whyContact {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #4581b7;
+  margin: 50px 0px 25px 40px;
+}
+
+.footer {
+  width: 1110px;
+  height: 150px;
+  background: var(--grey);
+  display: flex;
+  /* flex-direction: row; */
+  margin: 25px auto 0px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+.img1 {
+  width: 254px;
+  max-height: 120px;
+}
+
+/* .footer_info {
+  margin: 46px 40px 85px 817px;
+} */
+
+.footer_content {
+  display: flex;
+}
+.why_contact1 a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  display: inline-block;
+  margin-top: 40px;
+}
+.why_contact2 a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  display: inline-block;
+  margin-top: 68px;
+}
+
+.footer_info {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.footer_phone {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 25px;
+  color: #808080;
+}
